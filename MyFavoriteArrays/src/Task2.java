@@ -9,14 +9,18 @@ public class Task2 {
             evenArray2[i] = (int) (Math.random() * 10);
             System.out.println(evenArray2[i]);
         }
+
         int counter = 0;
         int sum = 0;
+
         for (int i = 0; i < evenArray2.length; i++) {
             if (evenArray2[i] % 2 == 0) {
                 sum = sum + evenArray2[i];
                 counter++;
             }
         }
+
         System.out.println("Сумма чётных чисел " + sum + "\n" + "Кол-во чётных чисел " + counter);
+
     }
 }

@@ -15,5 +15,6 @@ public class Task1 {
                 System.out.print(evenArray[i] + " ");
             }
         }
+
     }
 }
